@@ -4,6 +4,8 @@ Read and modify your files with the help of an AI assistant.
 
 The program uses Local MCP server with Azure OpenAI API to interact with your files.
 
+https://raw.githubusercontent.com/quan-bm/file_assistant/main/docs/demo.mp4
+
 # Usage
 ```bash
 > python main.py -h   
