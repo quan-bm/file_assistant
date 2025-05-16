@@ -16,10 +16,10 @@ load_dotenv()
 
 
 client = AsyncAzureOpenAI(
-    api_version=os.environ.get("AOAI_API_VERSION"),
+    api_version=os.environ.get("API_VERSION"),
     azure_endpoint=os.environ.get("AOAI_ENDPOINT"),
     azure_deployment=os.environ.get("AOAI_DEPLOYMENT"),
-    api_key=os.environ.get("AOAI_API_KEY"),
+    api_key=os.environ.get("API_KEY"),
 )
 
 
